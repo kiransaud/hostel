@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#2787A4"
+    android:orientation="vertical"
+    tools:context=".detailhostelActivity">
+
+    <TextView
+        android:id="@+id/namehostel"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="Name"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/nameOwner"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/namehostel"
+        android:gravity="center"
+        android:text="owner"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/nameaddress"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/nameOwner"
+        android:gravity="center"
+        android:text="address"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/namecontact"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/nameaddress"
+        android:gravity="center"
+        android:text="Contact"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/nameroom"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/namecontact"
+        android:gravity="center"
+        android:text="room"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/namefees"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/nameroom"
+        android:gravity="center"
+        android:text="fees"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+</ScrollView>
